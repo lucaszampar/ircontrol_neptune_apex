@@ -31,4 +31,4 @@ What we do it's just keep monitoring the PIN D6 (AC line Status) and as soon as 
 
 When it's necessary reprogram the codes, the user just press the switch of desired command (ON or OFF) and press the remote control corresponding key.
 
-
+Simplified schematich available at img/ dir.
