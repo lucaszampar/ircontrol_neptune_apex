@@ -8,13 +8,13 @@ Brief hardware description:
 
 Used a Arduino nano with the follow connections:
 
-PIN D2 - Programming STATUS LED
-PIN D3 - IR LED Output 
-PIN D4 - Program ON Code Switch ( 0 - Pressed )
-PIN D5 - Program OFF Code Switch ( 0 - Pressed )
-PIN D6 - AC Line Status ( 1 - Outlet ON; 0 - Outlet OFF)
-PIN D11 - IR Receiver ( TSOP38238 or compatible )
-PIN D13 - Fail Reading IR Code (On board LED)
+* PIN D2 - Programming STATUS LED
+* PIN D3 - IR LED Output 
+* PIN D4 - Program ON Code Switch ( 0 - Pressed )
+* PIN D5 - Program OFF Code Switch ( 0 - Pressed )
+* PIN D6 - AC Line Status ( 1 - Outlet ON; 0 - Outlet OFF)
+* PIN D11 - IR Receiver ( TSOP38238 or compatible )
+* PIN D13 - Fail Reading IR Code (On board LED)
 
 
 The hardware works in a simplified way like this:
